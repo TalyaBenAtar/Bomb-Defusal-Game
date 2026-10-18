@@ -15,7 +15,6 @@ The game runs through four challenges:
 
 The program also uses visual feedback, including an LCD, RGB LEDs, and seven-segment display support. Hardware timer interrupts are used for time-related game behavior.
 
-> **Implementation note:** The source's final path calls `bombExplodes(0)` after the fourth challenge. The end-of-game presentation should be checked against the demonstration video before describing a distinct victory screen.
 
 ## Technical highlights
 
@@ -58,12 +57,41 @@ Bomb-Defusal-Game/
 3. Connect a compatible PIC32 development board and configure the programmer/debugger as appropriate.
 4. Review the project's pin mapping and hardware assumptions before building or flashing.
 
-**Note:** This repository preserves the original source and shared MPLAB X project configuration. It has not been rebuilt or tested on physical hardware as part of preparing this repository. The exact development-board model and peripheral wiring should be confirmed before reproducing the setup.
 
-## Demo
+---
 
-A gameplay demonstration video can be linked here once uploaded.
+## 🎥 Demo Video
 
-## Project status
+Watch the Bomb Defusal Game in action on the Digilent PIC32 development board!
 
-Archived student embedded-systems project. Source code is preserved as originally provided, without refactoring.
+[▶️ Watch the Full Demo](https://drive.google.com/file/d/1XgkU0teixp-o_1GSaAr-xydii4x0bIVV/view?usp=sharing)
+
+---
+
+
+## 📸 Project Gallery
+
+A look at the Bomb Defusal Game running on the Digilent PIC32 development board, featuring interactive challenges, physical controls, and real-time feedback.
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/1c81c24f-0dc6-4fc9-b8fd-90ae15b3d49b" width="230"/>
+      <br/>
+      <b>Wire Cutting Challenge</b>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/ec234051-c1fa-4325-af13-1406a16d946e" width="230"/>
+      <br/>
+      <b>Target Challenge</b>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/61330231-8380-4106-8a02-510ea647b276" width="230"/>
+      <br/>
+      <b>Letter Challenge</b>
+    </td>
+  </tr>
+</table>
+
+
+
